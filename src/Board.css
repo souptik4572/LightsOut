@@ -1,0 +1,36 @@
+@font-face {
+    font-family: filament;
+    src: url('./filament_font.ttf');
+}
+
+.Board {
+	width: 30em;
+	height: auto;
+	margin: 4em auto;
+}
+
+.Board-title {
+	color: white;
+    font-size: 4em;
+    font-family: filament;
+    font-weight: bold;
+}
+
+.Board-layout {
+	width: 27em;
+	height: auto;
+	border: solid;
+    border-image-slice: 1;
+	border-width: 3px;
+	border-image-source: linear-gradient(
+		90deg,
+		rgba(91, 180, 58, 1) 17%,
+		rgba(253, 29, 29, 1) 74%,
+		rgba(252, 176, 69, 1) 100%
+    );
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 5px 0px;
+	margin: 0px auto;
+}

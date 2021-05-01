@@ -1,0 +1,8 @@
+.LightCell {
+    width: 5em;
+    height: 5em;
+    margin: 2px;
+    /* display: inline-block; */
+    border-radius: 5px;
+    vertical-align: middle;
+}
