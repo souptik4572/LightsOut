@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import Board from './Board';
+import Board from './components/Board/Board';
 
 class App extends Component {
-  render() {
-    return(
-      <div className='App'>
-        <Board />
-      </div>
-    )
-  }
+	render() {
+		return (
+			<div className='App'>
+				<Board />
+			</div>
+		);
+	}
 }
 
 export default App;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Board.css';
 
-import LightCell from './LightCell';
+import LightCell from '../LightCell/LightCell';
 
 class Board extends Component {
     static defaultProps = {
